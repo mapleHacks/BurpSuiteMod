@@ -1,3 +1,7 @@
+import os
+os.mkdir("~/BurpSuite")
+os.system("pip3 install gdown")
+os.system("sudo apt install openjdk-11-jdk")
 import gdown
 url = 'https://drive.google.com/uc?id=1-7xjIu7uvw43eq-n3XVkzOclobN3caSF'
 output = '/root/BurpSuite/BurpSuiteLoader_v2020.8.jar'
